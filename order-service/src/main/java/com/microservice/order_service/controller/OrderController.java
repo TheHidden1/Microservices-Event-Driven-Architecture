@@ -4,15 +4,13 @@ import com.microservice.base_domains.dto.Order;
 import com.microservice.base_domains.dto.OrderEvent;
 import com.microservice.order_service.kafka.OrderProducer;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/order")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class OrderController {
 
     private final OrderProducer orderProducer;
