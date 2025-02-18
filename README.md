@@ -15,8 +15,8 @@ Docker and Docker Compose installed
 ## Running the application
 
 ### Step 1
-This project uses Conduktor's Kafka Stack for Docker Compose. Clone the repository and start the Kafka stack:
-[Conduktor's Kafka Stack for Docker Compose](https://github.com/conduktor/kafka-stack-docker-compose)
+This project uses Conduktor's Kafka Stack for Docker Compose. Clone the repository and start the [Kafka stack](https://github.com/conduktor/kafka-stack-docker-compose)
+
 Run the following commands to start Kafka and Zookeeper:
 ```shell
 git clone https://github.com/conduktor/kafka-stack-docker-compose.git
